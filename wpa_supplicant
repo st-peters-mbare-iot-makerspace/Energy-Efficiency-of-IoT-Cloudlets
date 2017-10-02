@@ -1,0 +1,4 @@
+network={
+  ssid="<network name>"
+  psk="<password>"
+}
