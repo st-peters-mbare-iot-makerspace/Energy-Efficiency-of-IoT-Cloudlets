@@ -1,0 +1,72 @@
+
+INSTALLING Node.js LTS 6
+
+1. Remove old NodeJS, npm and Node-red
+
+sudo apt remove nodejs nodejs-legacy
+
+2. Download Long-Term Support (LTS) NodeJS (Currently v6) here:
+
+https://nodejs.org/dist/v6.11.3/node-v6.11.3-linux-armv7l.tar.xz
+
+3. Uncompress the downloaded NodeJS setup file using this command:
+cd Downloads
+tar xvf node-v6.11.3-linux-armv7l.tar.xz
+
+4. Copy folder contents to setup location(/usr/local/)
+
+cd node-v6.11.3-linux-armv7l
+sudo cp -R * /usr/local/
+
+5. Restart computer:
+
+sudo reboot
+
+6 Test if setup has been successful
+node -v
+(should be 6.x)
+
+npm -v
+(should be 3.x)
+
+INSTALL NODE-RED
+0. 
+1. Install node-pre-gyp:
+sudo npm install -g node-pre-gyp
+
+
+2. Install node-red using this command:
+sudo npm install -g --unsafe-perm node-red
+
+3. To enable node-red to start automatically
+sudo systemctl enable nodered.service
+
+3. Adding Nodered to start menu(Under programming)
+
+3.1 Place node-red.service file into this location: /lib/systemd/system/ (This file is found in this repo):
+sudo cp node-red.service /lib/systemd/system/
+
+3.2 Change permissions of the file: 
+sudo chmod 644 /lib/systemd/system/node-red.service
+
+3.2 Reload the systemctl daemon:
+sudo systemctl daemon-reload
+
+3.4 Enable node-red to automatically start at boot:
+sudo systemctl enable node-red.service
+
+3.5 Restart machine:
+sudo reboot
+
+4. Install node-red-node-serialport, node-red-dashboard, node-red-node-mongodb
+
+5. Install Arduino IDE
+5.1 Download ARM version from arduino.cc site
+5.2 Move downloaded tar file to /opt/
+5.3 Move to /opt/arduino-1.8.4/
+5.4 Run ./install.sh
+
+6. Install MongoDB 
+sudo apt install mongodb-server
+
+6. Create aquadb 
