@@ -2,5 +2,5 @@ username: root
 password: raspberry
 
 apt install iw crda wireless-regdb
-apt install firmware-brcm80211 pi-bluetooth wpasupplicant nano xz-utils
+apt install firmware-brcm80211 pi-bluetooth wpasupplicant nano xz-utils apt-transport-https
  
