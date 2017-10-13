@@ -3,3 +3,6 @@ allow-hotplug wlan0
 iface wlan0 inet manual
 wpa-roam /etc/wpa_supplicant/wpa_supplant.conf
 iface default inet dhcp
+
+#/etc/apt/apt.conf.d/10proxy (UZ proxy) 
+Acquire::http::Proxy "http://proxy.uz.ac.zw:3128";
