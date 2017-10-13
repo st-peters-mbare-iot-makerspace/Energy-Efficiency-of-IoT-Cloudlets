@@ -2,6 +2,6 @@
 #password: raspberry
 
 apt install iw crda wireless-regdb
-apt install firmware-brcm80211 pi-bluetooth wpasupplicant nano xz-utils apt-transport-https openssh-server openssh-client
+apt install firmware-brcm80211 pi-bluetooth wpasupplicant nano xz-utils apt-transport-https openssh-server openssh-client openjdk-8-jre
 apt-get install --reinstall libp11-kit0
  
