@@ -1,3 +1,4 @@
+#/etc/wpa_supplicant/wpa_supplicant.conf
 network={
   ssid="<network name>"
   psk="<password>"
