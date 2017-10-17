@@ -1,0 +1,5 @@
+#no space left - expand rootfs
+raspi-config>7 Advanced Options>A1 Expand Filesystem
+
+#clear cache
+rm /var/cache/apt/archives/*.deb
