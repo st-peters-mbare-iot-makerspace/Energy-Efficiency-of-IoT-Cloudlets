@@ -1,0 +1,2 @@
+#clear cache
+rm /var/cache/apt/archives/*.deb
