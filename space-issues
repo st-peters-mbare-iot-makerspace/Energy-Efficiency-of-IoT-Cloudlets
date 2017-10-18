@@ -3,3 +3,6 @@ raspi-config>7 Advanced Options>A1 Expand Filesystem
 
 #clear cache
 rm /var/cache/apt/archives/*.deb
+
+#/usr/bin/sbt
+Add this line on top of the file SBT_OPTS=-Xmx256M 
