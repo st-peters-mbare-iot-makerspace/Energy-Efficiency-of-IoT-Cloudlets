@@ -1,6 +1,8 @@
 #username: root
 #password: raspberry
 
+apt update
+
 apt install iw crda wireless-regdb raspi-config software-properties-common
 
 #no space left - expand rootfs
