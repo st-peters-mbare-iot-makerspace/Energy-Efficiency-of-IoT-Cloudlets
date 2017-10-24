@@ -8,6 +8,6 @@ apt install iw crda wireless-regdb raspi-config software-properties-common
 #no space left - expand rootfs
 raspi-config>7 Advanced Options>A1 Expand Filesystem
 
-apt install firmware-brcm80211 pi-bluetooth wpasupplicant nano xz-utils apt-transport-https openssh-server openssh-client openjdk-8-jre
+apt install firmware-brcm80211 pi-bluetooth wpasupplicant nano xz-utils apt-transport-https openssh-server openssh-client oracle-java8-jdk
 apt-get install --reinstall libp11-kit0
  
