@@ -58,15 +58,10 @@ sudo systemctl enable node-red.service
 3.5 Restart machine:
 sudo reboot
 
-4. Install node-red-node-serialport, node-red-dashboard, node-red-node-mongodb
-
-5. Install Arduino IDE
-5.1 Download ARM version from arduino.cc site
-5.2 Move downloaded tar file to /opt/
-5.3 Move to /opt/arduino-1.8.4/
-5.4 Run ./install.sh
-
-6. Install MongoDB 
+4. Install MongoDB 
 sudo apt install mongodb-server
 
-6. Create aquadb 
+5. Create aquadb 
+
+6. Install node-red-node-serialport, node-red-dashboard, node-red-node-mongodb
+
