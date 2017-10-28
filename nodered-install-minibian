@@ -7,15 +7,15 @@ sudo apt remove nodejs nodejs-legacy
 
 2. Download Long-Term Support (LTS) NodeJS (Currently v6) here:
 
-https://nodejs.org/dist/v6.11.3/node-v6.11.3-linux-armv7l.tar.xz
+node-v6.*.*-linux-armv7l.tar.xz
 
 3. Uncompress the downloaded NodeJS setup file using this command:
 cd Downloads
-tar xvf node-v6.11.3-linux-armv7l.tar.xz
+tar xvf node-v6.x.x-linux-armv7l.tar.xz
 
 4. Copy folder contents to setup location(/usr/local/)
 
-cd node-v6.11.3-linux-armv7l
+cd node-v6.x.x-linux-armv7l
 sudo cp -R * /usr/local/
 
 5. Restart computer:
@@ -28,6 +28,9 @@ node -v
 
 npm -v
 (should be 3.x)
+
+7. CORRECT TIME 
+date -s "Mon Oct  28 20:14:11 UTC 2017"
 
 INSTALL NODE-RED
 0. 
