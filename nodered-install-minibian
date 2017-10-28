@@ -42,9 +42,6 @@ sudo npm install -g node-pre-gyp
 sudo npm install -g --unsafe-perm node-red
 
 3. To enable node-red to start automatically
-sudo systemctl enable nodered.service
-
-3. Adding Nodered to start menu(Under programming)
 
 3.1 Place node-red.service file into this location: /lib/systemd/system/ (This file is found in this repo):
 sudo cp node-red.service /lib/systemd/system/
