@@ -11,10 +11,10 @@ KillSignal=SIGINT
 SyslogIdentifier=node-red
 StandardOutput=syslog
 
-# non-root user to run as
-WorkingDirectory=/home/pi/
-User=pi
-Group=pi
+# root user to run as
+WorkingDirectory=/root
+User=root
+Group=root
 
 [Install]
 WantedBy=multi-user.target
