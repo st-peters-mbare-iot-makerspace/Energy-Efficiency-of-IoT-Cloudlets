@@ -1,1 +1,2 @@
 apt install libpfm4
+sudo apt install libbluetooth-dev
