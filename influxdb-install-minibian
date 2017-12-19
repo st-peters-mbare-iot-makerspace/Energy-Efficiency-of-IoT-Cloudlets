@@ -25,3 +25,5 @@ systemctl start influxdb.service
 systemctl
 reboot
 
+#Source:  https://community.influxdata.com/t/installing-on-a-raspberry-pi/2159
+
