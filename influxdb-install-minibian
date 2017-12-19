@@ -1,0 +1,27 @@
+wget https://dl.influxdata.com/influxdb/releases/influxdb-1.4.2_linux_armhf.tar.gz
+tar xvzf  influxdb-1.4.2_linux_armhf.tar.gz
+cd influxdb-1.4.2-1/
+cp -rp usr/* /usr ; cp -rp etc/* /etc ;cp -rp var/* /var/
+
+#Configuring the service to start at boot
+cd /etc/systemd/system
+nano influxdb.service
+
+***Contents of influxdb.service***
+[Unit]
+Description=InfluxDB service
+[Service]
+ExecStart=/usr/bin/influxd
+NotifyAccess=main
+#WatchdogSec=10
+Restart=on-failure
+LimitNPROC=1
+ProtectHome=true
+ProtectSystem=full
+***End***
+
+systemctl enable influxdb.service
+systemctl start influxdb.service
+systemctl
+reboot
+
