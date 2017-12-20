@@ -1,1 +1,9 @@
 deb https://dl.bintray.com/fg2it/deb jessie main
+
+#Auto-start Configurations
+
+/bin/systemctl daemon-reload
+/bin/systemctl enable grafana-server
+### You can start grafana-server by executing
+ sudo /bin/systemctl start grafana-server
+
