@@ -1,0 +1,9 @@
+#pyserial download
+https://pypi.python.org/pypi/pyserial
+
+#installation
+cd pyserial-3.4/
+chmod 755 setup.py 
+python setup.py install
+
+
