@@ -16,6 +16,9 @@ wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 iface default inet dhcp
 
 #/etc/wpa_supplicant/wpa_supplicant.conf
+update_config=1
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=root
+
 network={
   ssid="<network name>"
   psk="<password>"
