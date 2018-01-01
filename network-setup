@@ -1,10 +1,18 @@
-#/etc/apt/apt.conf.d/10proxy (UZ proxy) 
-Acquire::http::Proxy "http://proxy.uz.ac.zw:3128";
+#/etc/apt/apt.conf.d/10proxy  
+Acquire::http::Proxy "http://X.X.X.X:3128";
 
 #/etc/network/interfaces
+auto wlan0
+
+iface lo inet loopback
+iface eth0 inet dhcp
+
 allow-hotplug wlan0
-iface wlan0 inet manual
-wpa-roam /etc/wpa_supplicant/wpa_supplant.conf
+iface wlan0 inet static
+address XXX.XXX.X.X
+netmask 255.255.255.0
+gateway XXX.XXX.X.X
+wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 iface default inet dhcp
 
 #/etc/wpa_supplicant/wpa_supplicant.conf
