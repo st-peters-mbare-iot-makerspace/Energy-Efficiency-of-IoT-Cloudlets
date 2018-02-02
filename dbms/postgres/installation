@@ -1,1 +1,21 @@
 https://bpwalters.com/blog/setting-up-postgresql-on-raspberry-pi/
+
+apt-get update
+apt-get install postgresql-9.4
+which psql
+cp /etc/postgresql/9.4/main/pg_hba.conf /etc/postgresql/9.4/main/pg_hba.conf.bak
+
+nano /etc/postgresql/9.4/main/pg_hba.conf
+#At the end of this file, enter the following line:
+host     all     all     192.168.0.0/24     md5
+
+cp /etc/postgresql/9.4/main/postgresql.conf /etc/postgresql/9.4/main/postgresql.conf.bak
+nano /etc/postgresql/9.4/main/postgresql.conf
+#And change the following line:
+listen_addresses = 'localhost'
+#To:
+listen_addresses = '*'
+
+su -u postgres 
+psql
+\password postgres
