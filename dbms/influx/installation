@@ -1,0 +1,2 @@
+wget https://dl.influxdata.com/influxdb/releases/influxdb-1.4.3_linux_armhf.tar.gz
+tar xvfz influxdb-1.4.3_linux_armhf.tar.gz
