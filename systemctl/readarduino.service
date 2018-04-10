@@ -1,0 +1,11 @@
+[Unit]
+Description=Read Arduino Data on Serial Port
+After=network.target
+
+[Service]
+Type=idle
+User=root
+ExecStart=/usr/bin/python /root/pythonscripts/readarduino.py
+
+[Install]
+WantedBy=default.target
