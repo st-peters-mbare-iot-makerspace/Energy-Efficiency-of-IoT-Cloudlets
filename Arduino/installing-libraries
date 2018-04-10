@@ -1,0 +1,13 @@
+1. Download library file here:
+https://github.com/adafruit/DHT-sensor-library
+
+Uncompress and rename to DHT
+Copy to "libraries" folder
+Add to Arduino IDE
+
+2. Download library file here:
+https://github.com/adafruit/Adafruit_Sensor
+
+Uncompress and rename to Adafruit_Sensor
+Copy to "libraries" folder
+Add to Arduino IDE
