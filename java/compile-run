@@ -1,0 +1,2 @@
+javac -cp .:javaArduino/arduino.jar:javaArduino/jSerialComm-1.3.11.jar javaArduino/ReadArduino.java
+java -cp .:javaArduino/arduino.jar:javaArduino/jSerialComm-1.3.11.jar javaArduino/ReadArduino
