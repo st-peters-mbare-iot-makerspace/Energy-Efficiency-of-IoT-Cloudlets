@@ -9,8 +9,10 @@ cd /etc/systemd/system
 nano influxdb.service
 
 ***Contents of influxdb.service***
+
 [Unit]
 Description=InfluxDB service
+
 [Service]
 ExecStart=/usr/bin/influxd
 NotifyAccess=main
@@ -19,6 +21,10 @@ Restart=on-failure
 LimitNPROC=1
 ProtectHome=true
 ProtectSystem=full
+
+[Install]
+WantedBy=default.target
+
 ***End***
 
 systemctl enable influxdb.service
