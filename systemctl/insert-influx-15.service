@@ -1,0 +1,11 @@
+[Unit]
+Description=Insert Data Into InfluxDB every 15seconds
+#After=network.target
+
+[Service]
+Type=idle
+User=root
+ExecStart=/bin/bash /root/influxscripts/insert-influx-15.sh
+
+[Install]
+WantedBy=default.target
