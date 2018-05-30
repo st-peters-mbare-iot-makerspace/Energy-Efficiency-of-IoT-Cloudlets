@@ -1,0 +1,14 @@
+muid=41441ce9-70d1-4539-a72a-42dffa656c47;timestamp=1516111289528;targets=influxd;devices=cpu;power=0.0 mW
+muid=41441ce9-70d1-4539-a72a-42dffa656c47;timestamp=1516111290523;targets=influxd;devices=cpu;power=281.73374613003097 mW
+muid=41441ce9-70d1-4539-a72a-42dffa656c47;timestamp=1516111291533;targets=influxd;devices=cpu;power=0.0 mW
+muid=41441ce9-70d1-4539-a72a-42dffa656c47;timestamp=1516111292533;targets=influxd;devices=cpu;power=0.0 mW
+muid=41441ce9-70d1-4539-a72a-42dffa656c47;timestamp=1516111293534;targets=influxd;devices=cpu;power=0.0 mW
+muid=41441ce9-70d1-4539-a72a-42dffa656c47;timestamp=1516111294533;targets=influxd;devices=cpu;power=0.0 mW
+muid=41441ce9-70d1-4539-a72a-42dffa656c47;timestamp=1516111295534;targets=influxd;devices=cpu;power=0.0 mW
+muid=41441ce9-70d1-4539-a72a-42dffa656c47;timestamp=1516111296534;targets=influxd;devices=cpu;power=229.79797979797982 mW
+muid=41441ce9-70d1-4539-a72a-42dffa656c47;timestamp=1516111297533;targets=influxd;devices=cpu;power=0.0 mW
+muid=41441ce9-70d1-4539-a72a-42dffa656c47;timestamp=1516111298533;targets=influxd;devices=cpu;power=0.0 mW
+muid=41441ce9-70d1-4539-a72a-42dffa656c47;timestamp=1516111299533;targets=influxd;devices=cpu;power=0.0 mW
+muid=41441ce9-70d1-4539-a72a-42dffa656c47;timestamp=1516111300533;targets=influxd;devices=cpu;power=687.6574307304786 mW
+muid=41441ce9-70d1-4539-a72a-42dffa656c47;timestamp=1516111301533;targets=influxd;devices=cpu;power=0.0 mW
+PowerAPI is shutting down ...
