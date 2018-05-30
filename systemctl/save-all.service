@@ -1,0 +1,11 @@
+[Unit]
+Description=Save Measurements of All Process to Sqlite3
+#After=network.target
+
+[Service]
+Type=idle
+User=root
+ExecStart=/bin/bash /root/save-energy-sqlite/save-all.sh
+
+[Install]
+WantedBy=default.target

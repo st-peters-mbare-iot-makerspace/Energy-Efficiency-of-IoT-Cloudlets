@@ -1,0 +1,11 @@
+[Unit]
+Description=Measure Energy for All Processes
+#After=network.target
+
+[Service]
+Type=idle
+User=root
+ExecStart=/bin/bash /root/measure/measure-all.sh
+
+[Install]
+WantedBy=default.target
