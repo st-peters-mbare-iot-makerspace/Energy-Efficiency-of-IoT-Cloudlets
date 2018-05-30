@@ -1,0 +1,6 @@
+#systemctl start & enable
+0. influxdb
+1. readarduino
+2. insert-influx-15
+3. measure-all
+4. save-all
