@@ -1,0 +1,6 @@
+#Read Speed
+sudo dd if=/dev/mmcblk0 of=/dev/null bs=8M count=100
+
+#Write Speed
+dd if=/dev/zero of=/home/pi/testfile bs=8M count=25
+
