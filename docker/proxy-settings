@@ -8,15 +8,18 @@ mkdir /etc/systemd/system/docker.service.d
 # cat /etc/systemd/system/docker.service.d/http-proxy.conf
 [Service]
 Environment="HTTP_PROXY=https://web-proxy.corp.xxxxxx.com:8080/"
+Environment="NO_PROXY=localhost,127.0.0.1,localaddress,.localdomain.com"
+
+(3) Add proxy in /etc/systemd/system/docker.service.d/https-proxy.conf file:
+[Service]
 Environment="HTTPS_PROXY=https://web-proxy.corp.xxxxxx.com:8080/"
 Environment="NO_PROXY=localhost,127.0.0.1,localaddress,.localdomain.com"
 
-
-(3) Flush changes:
+(4) Flush changes:
 
 systemctl daemon-reload
 
 
-(4) Restart Docker:
+(5) Restart Docker:
 
 systemctl restart docker
