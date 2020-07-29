@@ -1,6 +1,6 @@
 # Process Level Evaluation of Energy Efficiency of Virtualised Databases in IoT cloudlets
 
-The study intends to establish whether it is energy efficient to deploy database systems on a constrained IoT networks known as Cloudlets.  
+The study intends to establish whether it is energy efficient to deploy database systems accessible through constrained IoT networks and hosted on edge nodes and fog cloudlets.  
 
 ## DHT22 Sensors
 DHT22 sensors will be used in collecting temperature and humidity values from the atmosphere. 
