@@ -36,15 +36,13 @@ Several power meters are spawn for every process in the system; they include:
 2. HTTP API that connects the python application to the database (meter-restheart, meter-prest)
 3. The Database server (meter-influxdb, meter-mongodb, meter-postgres)
 
-Scheduling the spawning of the processes is controlled by systemd timers. Figure 3 illustrates the steps that the scheduler follows as pipeline steps followed in a typical experiment:
+Scheduling the spawning of the processes is controlled by systemd timers. The scheduler follows the following pipeline steps in a typical experiment:
 
-
-The steps are is summarised as follows:
-1. The App-system-docker.timer is configured to start executing at a specific time. 
-2. When the specific time elapses the App-System service starts, and 
-3. Spawns a Docker container which and at the same time 
-4. Start a bash script that creates a PowerAPI power that starts computing the power consumption of the entire system and subsequently starts another bash that 
-5. Reads the energy metrics extracting the energy value and timestamp adds the 	name of the system event and saves the values in an SQLite table within a 	database.
+1. The App-system-docker.timer is configured to start executing at a specific time; 
+2. When the specific time elapses the App-System service starts, and;
+3. Spawns a Docker container which in turn;
+4. Start a bash script that creates a PowerAPI power that starts computing the power consumption of the entire system and subsequently starts another bash that;
+5. Reads the energy metrics extracting the energy value and timestamp, adds the name of the system event and saves the values in an SQLite table within a database.
 
 
 BASIC STEPS FOR ALL MACHINES
