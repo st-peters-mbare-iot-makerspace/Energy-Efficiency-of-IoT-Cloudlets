@@ -1,6 +1,6 @@
 # Process Level Evaluation of Energy Efficiency of Virtualised Databases in IoT cloudlets
 
-https://drive.google.com/file/d/14_biXF_SOasOvTqpM-Ey-Tki0yqlRTrf/view?usp=sharing
+<embed src="Process Level Evaluation of Energy Efficiency of Virtualised Database in IoT Cloudlets - MSc Computer Science - Solomon Kembo.pdf" type="application/pdf">
 
 
 The study intends to establish whether it is energy efficient to deploy database systems accessible through constrained IoT networks and hosted on edge devices and fog cloudlets.  
