@@ -2,7 +2,9 @@
 
 The study intends to establish whether it is energy efficient to deploy database systems accessible through constrained IoT networks and hosted on edge devices and fog cloudlets.  
 
-[embed]https://drive.google.com/file/d/14_biXF_SOasOvTqpM-Ey-Tki0yqlRTrf/view?usp=sharing[/embed]
+
+
+<embed src="https://drive.google.com/file/d/14_biXF_SOasOvTqpM-Ey-Tki0yqlRTrf/view?usp=sharing" type="application/pdf">
 
 ## DHT22 Sensors
 DHT22 sensors will be used in collecting temperature and humidity values from the atmosphere. 
