@@ -1,10 +1,10 @@
 # Process Level Evaluation of Energy Efficiency of Virtualised Databases in IoT cloudlets
 
+<object data="https://drive.google.com/file/d/14_biXF_SOasOvTqpM-Ey-Tki0yqlRTrf/view" type="application/pdf" width="100%"> 
+</object>
+
+
 The study intends to establish whether it is energy efficient to deploy database systems accessible through constrained IoT networks and hosted on edge devices and fog cloudlets.  
-
-
-
-<embed src="https://drive.google.com/file/d/14_biXF_SOasOvTqpM-Ey-Tki0yqlRTrf/view?usp=sharing" type="application/pdf">
 
 ## DHT22 Sensors
 DHT22 sensors will be used in collecting temperature and humidity values from the atmosphere. 
